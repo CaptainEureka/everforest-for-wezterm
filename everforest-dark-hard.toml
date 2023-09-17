@@ -1,29 +1,38 @@
 [colors]
 ansi = [
-	'#414b50',
-	'#e67e80',
-	'#a7c080',
-	'#dbbc7f',
-	'#7fbbb3',
-	'#d699b6',
-	'#83c092',
-	'#d3c6aa',
+  '#414b50',
+  '#e67e80',
+  '#a7c080',
+  '#dbbc7f',
+  '#7fbbb3',
+  '#d699b6',
+  '#83c092',
+  '#d3c6aa',
 ]
 background = '#272e33'
 brights = [
-	'#475258',
-	'#e67e80',
-	'#a7c080',
-	'#dbbc7f',
-	'#7fbbb3',
-	'#d699b6',
-	'#83c092',
-	'#d3c6aa',
+  '#475258',
+  '#e67e80',
+  '#a7c080',
+  '#dbbc7f',
+  '#7fbbb3',
+  '#d699b6',
+  '#83c092',
+  '#d3c6aa',
 ]
 cursor_bg = '#d3c6aa'
 cursor_border = '#d3c6aa'
 cursor_fg = '#272e33'
 foreground = '#d3c6aa'
+
+[colors.tab_bar]
+active_tab = { bg_color = "#272e33", fg_color = "#d3c6aa" }
+background = "#1c2124"
+inactive_tab = { bg_color = "#21272c", fg_color = "#859289" }
+inactive_tab_edge = "#ff0000"
+inactive_tab_hover = { bg_color = "#272e33", fg_color = "#d3c6aa" }
+new_tab = { bg_color = "#1c2124", fg_color = "#a7c080" }
+new_tab_hover = { bg_color = "#A7C080", fg_color = "#272E33" }
 
 [colors.indexed]
 
